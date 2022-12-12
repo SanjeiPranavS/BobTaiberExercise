@@ -8,7 +8,88 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Width="500" HorizontalAlignment="Left">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+            
 
+</Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Title 1"
+                 FontSize="24"
+                 Margin="10 20 0 0"/>
+        <StackPanel Orientation="Vertical">
+            <Grid.Row>1</Grid.Row>
+            <Grid.Column>1</Grid.Column>
+            <TextBlock TextWrapping="Wrap"  Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctusmet neque nec eroAliquam erat volutpat. Vestibulum dignissim qut"></TextBlock>
+            <StackPanel Orientation="Horizontal"
+                        >
+                <Rectangle Width="100"
+                           Height="30"
+                           Fill="Orange"/>
+                <Rectangle Width="100"
+                           Height="30"
+                           Fill="Blue"/>
+                <Rectangle Width="100"
+                           Height="30"
+                           Fill="DarkRed"/>
+
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Vertical">
+            <Grid.Row>4</Grid.Row>
+            <Grid.Column>1</Grid.Column>
+            <TextBlock TextWrapping="Wrap"  Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctusmet neque nec eroAliquam erat volutpat. Vestibulum dignissim qut"></TextBlock>
+            <StackPanel Orientation="Horizontal"
+            >
+                <Rectangle Width="100"
+                           Height="30"
+                           Fill="Orange"/>
+                <Rectangle Width="100"
+                           Height="30"
+                           Fill="Blue"/>
+                <Rectangle Width="100"
+                           Height="30"
+                           Fill="DarkRed"/>
+
+            </StackPanel>
+        </StackPanel>
+
+        <TextBlock Text="Title 2"
+                   FontSize="24"
+                   Grid.Row="3" Grid.Column="0"
+                   Margin="10 20 0 0"/>
+         <StackPanel Orientation="Vertical">
+            <Grid.Row>6</Grid.Row>
+            <Grid.Column>1</Grid.Column>
+            <TextBlock TextWrapping="Wrap"  Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctusmet neque nec eroAliquam erat volutpat. Vestibulum dignissim qut"></TextBlock>
+            <StackPanel Orientation="Horizontal"
+                        >
+                <Rectangle Width="100"
+                           Height="30"
+                           Fill="Orange"/>
+                <Rectangle Width="100"
+                           Height="30"
+                           Fill="Blue"/>
+                <Rectangle Width="100"
+                           Height="30"
+                           Fill="DarkRed"/>
+
+            </StackPanel>
+        </StackPanel>
+        <TextBlock Text="Title 3"
+                 FontSize="24"
+                 Grid.Row="5" Grid.Column="0"
+                 Margin="10 20 0 0"/>
+       
     </Grid>
 </Page>
