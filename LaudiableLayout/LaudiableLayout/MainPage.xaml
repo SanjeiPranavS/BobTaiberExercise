@@ -9,6 +9,61 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+           
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-    </Grid>
+        <TextBlock Grid.Row="0"
+                   Grid.Column="0"
+                   Text="Acme Sales Corp"
+                   FontSize="48"
+                  
+                   Grid.ColumnSpan="2"
+                   ></TextBlock>
+        <TextBox Grid.Row="1"
+                 Grid.Column="1"
+                 FontSize="20"
+                 Margin="10 10 20 0"></TextBox>
+        <TextBlock Margin="20 0 0 0"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Text="First Name :"></TextBlock>
+        <TextBox Grid.Row="2"
+                 Grid.Column="1"
+                 FontSize="20"
+                 Margin="10 10 20 0"></TextBox>
+        <TextBlock Margin="20 0 0 0"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Text="Last Name :"></TextBlock>
+        <TextBox Grid.Row="3"
+                 Grid.Column="1"
+                 FontSize="20"
+                 Margin="10 10 20 0"></TextBox>
+        <TextBlock Margin="20 0 0 0"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Text="Email :"></TextBlock>
+        <Button Grid.Row="4"
+                Grid.Column="1"
+                Margin="10 10 0 0"
+                Content="save"></Button>
+
+
+</Grid>
 </Page>
